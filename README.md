@@ -77,4 +77,4 @@ The `config` object is the needed as parameter to access the time series data.
 
 The time series data is returned as a pandas DataFrame.
     
-For more examples have a look at the jupyter notebooks in the [notebooks](notebooks) directory.
+For more examples have a look at the jupyter notebooks in the [notebooks](https://github.com/asmaier/fondsweb/tree/main/notebooks) directory.
