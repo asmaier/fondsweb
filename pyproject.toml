@@ -1,6 +1,6 @@
 [project]
 name = "fondsweb-scraper"
-version = "0.1.1"
+version = "0.1.4"
 description = "Web scraper for ETF data from fondsweb website."
 authors = [
     { name = "asmaier", email = "asmaier@web.de" }
@@ -46,7 +46,7 @@ extend-select = ["E", "F"]
 include = ["src/fondsweb"]
 
 [tool.hatch.build.targets.wheel]
-include = ["src/fondsweb"]
+packages = ["src/fondsweb"]
 
 [build-system]
 requires = ["hatchling"]
